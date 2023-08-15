@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Montserrat&family=Source+Code+Pro:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.sidebar {
+ background-color: lightseagreen;
+  width: 150px;
+  font-family: "Fira Sans", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+  position: fixed;
+}
+.sidebar nav {
+  padding: 30px;
+}
+.sidebar nav li {
+  list-style: none;
+  padding: 33px 0px;
+  font-size: 25px;
+}
+.main {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 6%,
+    rgba(0, 255, 231, 1) 86%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+}
+.info {
+  height: 60vh;
+  width: 80vw;
+  margin: 10vh auto;
+  /* background-color: white; */
+  display: flex;
+}
+.me {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 5vw;
+}
+.hey {
+  font-family: "Montserrat", sans-serif;
+  font-size: 55px;
+  font-weight: 500;
+}
+.name {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.about {
+  font-family: "Montserrat", sans-serif;
+  color:lightseagreen;
+  font-weight: 900;
+}
+.about-main{
+  font-size: 35px;
+  font-weight: 500;
+  margin-right: 10px;
+  padding-top: 30px;
+}
+.extra {
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.buttons {
+  margin: 10px 10px;
+}
+img {
+  margin-right: 40px;
+}
+
+.anupam{
+
+  
+    padding:2.56rem;
+    
+    transition:all 1s;
+    animation: scaleImage 5s linear infinite;
+ 
+}
+
+@keyframes scaleImage {
+
+  0%{
+      transform:scale(1);
+      
+  }
+
+  50%{
+      transform:scale(1.1);
+      
+      box-shadow: 3px 3px 10px black;
+  }
+
+  100%{
+      transform:scale(1);
+    
+  }
+  
+}
+
+.ab {
+  padding: 10px 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color:lightseagreen;
+  color: white;
+  text-decoration: none;
+  transition: all ease-in 0.4s;
+}
+.cc {
+  padding: 10px 10px;
+  margin-left: 5px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color:lightseagreen;
+  color: white;
+  transition: all ease-in 0.4s;
+}
+.ab:hover {
+  background-color:white;
+  color:lightseagreen;
+}
+.cc:hover {
+  background-color:white;
+  color: lightseagreen;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.cross {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.ham {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  height: 100px;
+ width: 100px;
+  cursor: pointer;
+}
+.sidebar-ja {
+  transform: translateX(-500px);
+  position: absolute;
+}
+.me {
+  padding: 10px 60px;
+}
+.me h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+.me p {
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 10px;
+}
+.skills {
+  padding: 0 60px;
+}
+.skills h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+.html {
+  height: 5vh;
+  width: 50vw;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.css {
+  height: 5vh;
+  width: 50vw;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.js {
+  height: 5vh;
+  width: 50vw;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.cpp {
+  height: 5vh;
+  width: 50vw;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.py {
+  height: 5vh;
+  width: 50vw;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.htpt {
+  height: 5vh;
+  width: 40vw;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.cppt {
+  height: 5vh;
+  width: 46vw;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.csspt {
+  height: 5vh;
+  width: 30vw;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.jspt {
+  height: 5vh;
+  width: 20vw;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.pypt {
+  height: 5vh;
+  width: 20vw;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.acvm {
+  padding: 10px 60px;
+}
+.acvm h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+.acvm ul {
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+form {
+  padding-left: 60px;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.formc {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.formc1 {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.formc2 {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.formc3 {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.formc4 {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.fbt {
+  padding: 10px 10px;
+  background-color: palevioletred;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.fbt:hover {
+  background-color: white;
+  color: palevioletred;
+}
+.ins {
+  margin-top: 20px;
+  padding-left: 88px;
+}
+.lin {
+  padding-left: 88px;
+}
+.fb {
+  padding-left: 88px;
+}
+.we {
+  padding-left: 100px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.ew {
+  padding-left: 100px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.wee {
+  padding-left: 100px;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.blogs {
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+#Services {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+@media (max-width: 500px) {
+  .anupam {
+    display: none;
+  }
+}
